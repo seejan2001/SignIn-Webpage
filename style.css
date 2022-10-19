@@ -1,0 +1,278 @@
+#largeContainer{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    border:1px solid black;
+    height:400px;
+    width:400px;
+    box-shadow: 0px 0px 5px 1px;
+    border-radius:10px;
+}
+#continue{
+    position:relative;
+    top:-1px;
+}
+#mainContainer{
+    padding:20px;
+    line-height: 2;
+    margin:5px;
+}
+.paragraph{
+    font-size: 14px;
+    position:relative;
+    top:25px;
+}
+.signin-paragraph{
+    font-size :16px;
+    margin-top:50px;
+    height:55px;
+    padding:10px;
+    left:35px;
+    position:relative;
+}
+.signin-paragraph-blank{
+    position:absolute;
+    font-size :18px;
+    margin-top:50px;
+    height:55px;
+    width:350px;
+    border-top:1px solid rgb(211, 211, 211);
+}
+#googlebutton{
+    position:relative;
+    left:90px;
+    top:-10px;
+}
+#facebookbutton{
+    position:relative;
+    left:30px;
+    top:-10px;
+}
+#phone{
+    width:250px;
+}
+@media screen and (min-width:320px){
+    #largeContainer{
+    display:flex;
+    height:90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:15px;
+    }
+    .paragraph{
+        font-size: 8px;
+        position:relative;
+        top:8px;
+    }
+    .mobileNumber{
+        font-size:10px;
+    }
+    
+    .signin-paragraph{
+        font-size :8px;
+        margin-top:15px;
+        height:55px;
+        padding:5px;
+        left:35px;
+        position:relative;
+    }
+    .signin-paragraph-blank{
+        position:absolute;
+        font-size :8px;
+        margin-top:15px;
+        height:55px;
+        width:200px;
+        border-top:1px solid rgb(211, 211, 211);
+    }
+    #phone{
+        width:180px;
+        height:30px;
+    }
+    #container{
+        border:1px solid black;
+        height:420px;
+        width:225px;
+        box-shadow: 0px 0px 5px 1px;
+        border-radius:10px;
+    }
+    #googlebutton{
+        position:relative;
+        left:100px;
+        top:-60px;
+    }
+    #facebookbutton{
+        position:relative;
+        left:-10px;
+        top:-25px;
+        
+    }
+}
+@media screen and (min-width:480px){
+    #largeContainer{
+        display:flex;
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left:15px;
+        }
+        .paragraph{
+            font-size: 10px;
+            position:relative;
+            top:30px;
+        }
+        .signin-paragraph{
+            font-size :10px;
+            margin-top:65px;
+            height:55px;
+            padding:5px;
+            left:45px;
+            position:relative;
+        }
+        .signin-paragraph-blank{
+            position:absolute;
+            font-size :10px;
+            margin-top:65px;
+            height:55px;
+            width:270px;
+            border-top:1px solid rgb(211, 211, 211);
+        }
+        #phone{
+            width:170px;
+        }
+        #container{
+            border:1px solid black;
+            height:400px;
+            width:325px;
+            box-shadow: 0px 0px 5px 1px;
+            border-radius:10px;
+        }
+        #googlebutton{
+            position:relative;
+            left:70px;
+            top:-25px;
+        }
+        #facebookbutton{
+            position:relative;
+            left:-10px;
+            top:-25px;
+            
+        }
+}
+@media screen and (min-width:768px){
+    #largeContainer{
+        display:flex;
+        height:90vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left:5px;
+        }
+        .paragraph{
+            font-size: 18px;
+            position:relative;
+            top:50px;
+        }
+        .signin-paragraph{
+            font-size :20px;
+            margin-top:105px;
+            height:55px;
+            padding:5px;
+            left:45px;
+            position:relative;
+        }
+        .signin-paragraph-blank{
+            position:absolute;
+            font-size :10px;
+            margin-top:105px;
+            height:55px;
+            width:450px;
+            border-top:1px solid rgb(211, 211, 211);
+        }
+        #phone{
+            width:350px;
+        }
+        #container{
+            border:1px solid black;
+            height:500px;
+            width:500px;
+            box-shadow: 0px 0px 5px 1px;
+            border-radius:10px;
+        }
+        #googlebutton{
+            position:relative;
+            left:180px;
+            top:30px;
+        }
+        #facebookbutton{
+            position:relative;
+            left:50px;
+            top:30px;
+            
+        }
+}
+@media screen and (min-width:1200px){
+    #largeContainer{
+        display:flex;
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left:5px;
+        }
+        .paragraph{
+            font-size: 15px;
+            position:relative;
+            top:30px;
+        }
+        .signin-paragraph{
+            font-size :20px;
+            margin-top:80px;
+            height:55px;
+            padding:15px;
+            left:75px;
+            position:relative;
+        }
+        .signin-paragraph-blank{
+            position:absolute;
+            font-size :18px;
+            margin-top:80px;
+            height:55px;
+            width:450px;
+            border-top:1px solid rgb(211, 211, 211);
+        }
+        #phone{
+            width:350px;
+            height:35px;
+        }
+        .mobileNumber{
+            font-size: 20px;
+        }
+        #container{
+            border:1px solid black;
+            height:500px;
+            width:500px;
+            box-shadow: 0px 0px 5px 1px;
+            border-radius:10px;
+        }
+        #googlebutton{
+            position:relative;
+            left:120px;
+            top:10px;
+            height:60px;
+            width:150px;
+            font-size: 15px;
+        }
+        #facebookbutton{
+            position:relative;
+            left:30px;
+            top:10px;
+            height:60px;
+            width:150px;
+            font-size: 15px;
+        }
+}
